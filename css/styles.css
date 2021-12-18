@@ -15,7 +15,7 @@
 @import "screens/find.css";
 
 body {
-  color: #2e363e;
+  color: var(--font-color);
   font-family: "Open Sans", sans-serif;
 }
 

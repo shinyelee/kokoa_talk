@@ -5,7 +5,7 @@
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid var(--light-gray);
 }
 
 .nav__list {
@@ -15,7 +15,7 @@
 
 .nav__link {
   position: relative;
-  color: #2e363e;
+  color: var(--font-color);
 }
 
 .badge {

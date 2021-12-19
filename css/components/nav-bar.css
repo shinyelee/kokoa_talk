@@ -18,20 +18,13 @@
   color: var(--font-color);
 }
 
-.badge {
+.nav__chat {
   position: absolute;
   left: 20px;
   bottom: 15px;
 }
 
 .nav__more {
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 30px;
   bottom: 28px;

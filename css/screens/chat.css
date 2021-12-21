@@ -43,6 +43,7 @@ img {
 .message-row {
   width: 100%;
   display: flex;
+  margin-bottom: 25px;
 }
 
 .message-row img {
@@ -76,4 +77,20 @@ img {
 .message__author {
   opacity: 0.8;
   font-size: 14px;
+}
+
+.message-row__own {
+  justify-content: flex-end;
+}
+
+.message-row__own .message__bubble {
+  background-color: var(--yellow);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.message-row__own .message__info {
+  flex-direction: row-reverse;
 }

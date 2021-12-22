@@ -14,3 +14,16 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+@keyframes cogRotate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: cogRotate 1.5s linear infinite;
+}

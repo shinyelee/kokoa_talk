@@ -52,3 +52,38 @@
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
 }
+
+.friends-screen-updated {
+  margin-top: 25px;
+  border-top: 1px solid var(--light-gray);
+  padding-top: 15px;
+}
+
+.friends-screen-updated__header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--dark-gray);
+}
+
+.friends-screen-updated__list {
+  display: flex;
+}
+
+.friends-screen-updated__list__one {
+  margin-right: 20px;
+}
+
+.friends-screen-updated__list__one__avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 22px;
+  background-color: var(--light-gray);
+}
+
+.friends-screen-updated__list__one__text {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 14px;
+}

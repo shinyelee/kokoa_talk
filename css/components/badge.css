@@ -9,3 +9,7 @@
   color: white;
   font-weight: 600;
 }
+
+.hidden {
+  visibility: hidden;
+}

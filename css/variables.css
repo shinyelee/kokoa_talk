@@ -2,9 +2,10 @@
   --yellow: #fae100;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --light-blue: rgba(42, 131, 213, 0.3);
   --blue: rgba(42, 131, 213, 1);
   --pale-gray: whitesmoke;
-  --light-gray: rgba(245, 130, 130, 0.2);
+  --light-gray: rgba(0, 0, 0, 0.2);
   --dark-gray: rgba(0, 0, 0, 0.5);
   --font-color: #2e363e;
 }

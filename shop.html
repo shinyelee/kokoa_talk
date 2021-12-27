@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Clone</title>
+    <title>쇼핑</title>
   </head>
   <body>
     <div class="status-bar">
@@ -27,10 +27,13 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">쇼핑</h1>
       <div class="screen-header__icons">
         <span>
-          <i class="fas fa-search fa-lg"></i>
+          <i class="fas fa-qrcode fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-music fa-lg"></i>
         </span>
         <span>
           <a href="settings.html">
@@ -43,26 +46,54 @@
     <main class="main-screen">
       <div class="icon-row">
         <div class="icon-row__icon">
-          <i class="fas fa-qrcode"></i>
-          <span>QR Code</span>
+          <i class="fas fa-gift"></i>
+          <span>선물하기</span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-address-book"></i>
-          <span>Add by Contacts</span>
+          <i class="fas fa-store"></i>
+          <span>쇼핑하기</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fas fa-fingerprint"></i>
-          <span>Add by ID</span>
+          <i class="fab fa-monero"></i>
+          <span>메이커스</span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-envelope"></i>
-          <span>Invite</span>
+          <i class="fas fa-paw"></i>
+          <span>프렌즈</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-comment-alt"></i>
+          <span>쇼핑라이브</span>
         </div>
       </div>
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__title">Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
+    </main>
+
+    <div class="ad">
+      <img src="naevis.png" />
+    </div>
+
+    <main class="main-screen">
+      <div class="recommend">
+        <div class="recommend__search">
+          <i class="fas fa-search fa-2x"></i>
+          <input type="text" placeholder="카카오쇼핑에서 검색하세요." />
+        </div>
+        <div class="recommend__list">
+          <div class="recommend__list__icon">
+            <span>추천</span>
+            <i class="fas fa-info-circle"></i>
+          </div>
+          <div class="recommend__list__keywords">
+            <span>생일축하해 세트</span>
+            <span>콤부차</span>
+            <span>여성토트백</span>
+            <span>바디크림</span>
+            <span>설향 딸기</span>
+          </div>
+        </div>
       </div>
+    </main>
+    <!-- <main class="main-screen">
       <div class="open-chat">
         <div class="open-chat__header">
           <h4>Open Chat</h4>
@@ -91,7 +122,7 @@
           </div>
         </div>
       </div>
-    </main>
+    </main> -->
 
     <nav class="nav">
       <ul class="nav__list">
@@ -107,7 +138,7 @@
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html">
+          <a class="nav__link" href="shop.html">
             <i class="fas fa-search fa-2x"></i>
           </a>
         </li>

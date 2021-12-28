@@ -50,7 +50,7 @@
   align-items: center;
   font-size: 128px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
-  animation-delay: 2s;
+  animation-delay: 0.7s;
 }
 
 .friends-screen-updated {

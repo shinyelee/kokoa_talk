@@ -89,8 +89,8 @@
   display: flex;
   align-items: center;
   position: absolute;
-  top: -200px;
-  left: 5px;
+  bottom: 165px;
+  left: 10px;
   color: var(--blue);
 }
 

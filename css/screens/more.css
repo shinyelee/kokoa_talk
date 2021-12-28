@@ -3,30 +3,24 @@
 }
 
 .more-suggestions {
-  margin-top: 50px;
-  border-top: var(--main-border);
-  padding-top: 40px;
-}
-
-.more-suggestions__title {
-  margin-bottom: 30px;
+  background-color: lemonchiffon;
 }
 
 .more-suggestions__icons {
+  padding: 5px 0;
   display: flex;
+  justify-content: space-between;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
+  width: 70px;
+  height: 70px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -35,6 +29,11 @@
 }
 
 .more-suggestions__icon-image i {
-  font-size: 32px;
-  color: white;
+  font-size: 40px;
+}
+
+.more-suggestions__icon-text {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }

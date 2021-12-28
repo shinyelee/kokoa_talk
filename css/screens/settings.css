@@ -1,18 +1,46 @@
+body {
+  overflow: scroll;
+}
+
+.settings {
+  border-bottom: 1px solid var(--light-gray);
+}
+
 .settings__setting {
-  padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.settings__setting:last-child {
+  border: none;
+}
+
+.settings__setting i {
+  font-size: 22px;
+}
+
+.settings__setting-column i {
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.settings__setting i {
-  opacity: 0.8;
-  margin-right: 20px;
-  font-size: 22px;
+.settings__setting-column:first-child {
+  width: 40px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .settings__setting-column:last-child {
-  color: var(--dark-gray);
+  color: var(--font-color);
+}
+
+.help {
+  border: none;
 }

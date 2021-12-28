@@ -24,6 +24,7 @@
 body {
   color: var(--font-color);
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 80px;
 }
 
 .main-screen {

@@ -7,16 +7,6 @@
   font-size: 14px;
 }
 
-.ad img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.ad__ment span {
-  margin-left: 3px;
-}
-
 .recommend__list {
   display: flex;
   padding-bottom: 30px;
@@ -85,6 +75,25 @@
   justify-content: space-between;
 }
 
+.ad img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.ad__icon {
+  position: relative;
+}
+
+.fa-ad {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -200px;
+  left: 5px;
+  color: var(--blue);
+}
+
 .td-box__content__photo {
   position: relative;
 }
@@ -126,7 +135,7 @@
   }
 }
 
-.td-box__content__heart-count:hover i {
+.td-box__content__heart:hover i {
   will-change: transform;
   animation: hrtBeat 1s linear infinite;
 }

@@ -36,11 +36,21 @@
 
     <form action="friends.html" method="get" id="login-form">
       <input
+        required
+        minlength="4"
+        maxlength="15"
         name="username"
-        type="text"
+        type="email"
         placeholder="카카오계정 (이메일 또는 전화번호)"
       />
-      <input name="password" type="password" placeholder="비밀번호" />
+      <input
+        required
+        minlength="4"
+        maxlength="20"
+        name="password"
+        type="password"
+        placeholder="비밀번호"
+      />
       <input type="submit" value="로그인" />
       <span
         ><input type="checkbox" />자동로그인

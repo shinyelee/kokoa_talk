@@ -47,5 +47,40 @@
 }
 
 .screen-header__icons .fa-cog:hover {
-  animation: cogRotate 1.5s linear infinite;
+  animation: cogRotate 2s linear infinite;
+}
+
+@keyframes musicFloat {
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.screen-header__icons .fa-music:hover {
+  animation: musicFloat 1s ease-in-out infinite;
+}
+
+@keyframes searchBeat {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.screen-header__icons .fa-search:hover {
+  will-change: transform;
+  animation: searchBeat 1s linear infinite;
+}
+
+@keyframes qrBlink {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.screen-header__icons .fa-qrcode:hover {
+  will-change: transform;
+  animation: qrBlink 1s ease-in-out infinite;
 }

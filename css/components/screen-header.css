@@ -3,7 +3,29 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
-  margin-bottom: 15px;
+  margin: 15px 0;
+}
+
+.screen {
+  background-color: white;
+}
+
+.screen .screen-header,
+.screen .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.screen .status-bar {
+  z-index: 2;
+}
+
+.screen .screen-header {
+  top: 10px;
+  z-index: 1;
 }
 
 .screen-header__title {

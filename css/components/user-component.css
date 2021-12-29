@@ -31,7 +31,6 @@
   object-fit: cover;
   border-radius: 30px;
   margin-right: 20px;
-  background-color: rgba(131, 194, 212, 1);
 }
 
 .user-component__avatar--sm {
@@ -40,7 +39,6 @@
   object-fit: cover;
   border-radius: 22px;
   margin-right: 20px;
-  background-color: rgba(131, 194, 212, 1);
 }
 
 .user-component__avatar--sm-birthday {
@@ -66,7 +64,7 @@
   justify-content: center;
   align-items: center;
   color: black;
-  background-color: rgba(250, 225, 0, 1);
+  background-color: var(--yellow);
 }
 
 .user-component__title {

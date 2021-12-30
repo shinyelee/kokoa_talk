@@ -23,3 +23,22 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+.music-player {
+  margin: 0 40px;
+  background-color: gray;
+}
+
+.music-player__cover {
+  margin: 40px 0;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.music-player__cover img {
+  width: 420px;
+  height: 420px;
+}

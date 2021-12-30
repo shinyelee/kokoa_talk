@@ -1,0 +1,23 @@
+.chats__ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 30px 30px;
+}
+
+.chats__ad img {
+  width: 450px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.chats__ad__icon {
+  position: relative;
+  top: 80px;
+  right: 40px;
+}
+
+.fa-ad {
+  color: var(--blue);
+}

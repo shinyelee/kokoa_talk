@@ -9,12 +9,12 @@
   width: 450px;
   height: 200px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .chats__ad__icon {
   position: relative;
-  top: 80px;
+  bottom: 80px;
   right: 40px;
 }
 

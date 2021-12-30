@@ -1,0 +1,25 @@
+#music-screen {
+  color: white;
+  background-color: var(--font-color);
+}
+
+#music-screen .alt-header,
+#music-screen .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#music-screen .status-bar {
+  z-index: 2;
+}
+
+#music-screen .alt-header {
+  top: 10px;
+  z-index: 1;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+}

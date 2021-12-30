@@ -26,7 +26,6 @@
 
 .music-player {
   margin: 0 40px;
-  background-color: gray;
 }
 
 .music-player__cover {
@@ -35,7 +34,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: lightgray;
 }
 
 .music-player__cover img {
@@ -55,22 +53,32 @@
 }
 
 .music-player__artist,
+.music-player__options,
 .stream {
-  color: var(--pale-gray);
+  color: var(--light-gray);
 }
 
 .music-player__options i {
   padding: 20px;
-  background-color: gold;
 }
 
 .stream {
-  height: 70px;
-  background-color: pink;
+  height: 130px;
 }
 
-.stream__time {
+.stream__bar {
+  height: 50px;
+  border-bottom: 2px solid var(--light-gray);
+}
+
+.stream__time,
+.music-player__btns {
+  padding: 3px 0;
   display: flex;
   justify-content: space-between;
-  background-color: hotpink;
+}
+
+.stream__time__start,
+.music-player__btns .fa-play {
+  color: var(--music);
 }

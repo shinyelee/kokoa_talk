@@ -20,6 +20,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/music.css";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -30,4 +31,8 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.fa-bullhorn {
+  color: red;
 }

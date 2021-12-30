@@ -87,3 +87,14 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__column__music {
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 15px;
+  border: 1px solid var(--music);
+}
+
+.user-component__column__music .fa-play {
+  color: var(--music);
+}

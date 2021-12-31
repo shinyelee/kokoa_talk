@@ -191,6 +191,7 @@ img {
 }
 
 #todo-list {
+  justify-content: space-between;
   text-align: right;
 }
 
@@ -201,4 +202,9 @@ img {
   border-radius: 15px;
   border-top-right-radius: 0px;
   margin: 25px;
+}
+
+#todo-list button {
+  border: none;
+  background-color: var(--yellow);
 }

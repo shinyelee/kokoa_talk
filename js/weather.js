@@ -6,7 +6,7 @@ const API_KEY = "8cd894e12de3fa5eaa1066e961a9fd37";
 function onGeoOk(position) {
   const lat = position.coords.latitude;
   const lon = position.coords.longitude;
-  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=kr`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
@@ -26,4 +26,4 @@ function onGeoError() {
 }
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
-// https://namjackson.tistory.com/27
+// 참고: https://byul91oh.tistory.com/31

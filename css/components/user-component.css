@@ -70,6 +70,7 @@
 .user-component__title {
   font-weight: 600;
   font-size: 20px;
+  display: flex;
 }
 
 .user-component__subtitle {

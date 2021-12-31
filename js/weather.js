@@ -1,6 +1,6 @@
-const weather = document.querySelector("#weather .weather");
-const city = document.querySelector("#weather .city");
-const icon = document.querySelector("#weather .icon");
+const weather = document.querySelector(".weather__column__weather");
+const city = document.querySelector(".weather__column__city");
+const icon = document.querySelector(".weather__column__icon");
 const API_KEY = "8cd894e12de3fa5eaa1066e961a9fd37";
 
 function onGeoOk(position) {
@@ -25,5 +25,3 @@ function onGeoError() {
   alert("위치를 찾을 수 없습니다.");
 }
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
-
-// 참고: https://byul91oh.tistory.com/31

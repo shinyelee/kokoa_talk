@@ -21,3 +21,33 @@
 .fa-ad {
   color: var(--blue);
 }
+
+#weather {
+  margin: 30px;
+  width: 440px;
+  height: 100px;
+  color: var(--font-color);
+  border-top: var(--main-border);
+}
+
+.weather__column {
+  padding: 20px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--font-color);
+}
+
+.weather__column__city {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.weather__column__weather {
+  padding: 5px;
+  font-size: 28px;
+}
+
+#weather img {
+  background-color: white;
+}

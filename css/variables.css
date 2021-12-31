@@ -1,10 +1,11 @@
 :root {
   --horizontal-space: 25px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.2);
-  --light-blue: rgba(42, 131, 213, 0.3);
+  --main-border: 1px solid gainsboro;
+  --light-blue: rgba(178, 199, 218, 1);
+  --smoky-blue: rgba(156, 175, 190, 1);
   --blue: rgba(42, 131, 213, 1);
   --music: rgba(37, 222, 95, 1);
-  --yellow: #fae100;
+  --yellow: rgba(255, 235, 52, 1);
   --pale-gray: whitesmoke;
   --light-gray: gainsboro;
   --dark-gray: gray;

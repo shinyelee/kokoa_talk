@@ -12,13 +12,11 @@ function onGeoOk(position) {
     .then((data) => {
       city.innerText = data.name;
       weather.innerText = `${data.weather[0].main} / ${data.main.temp}˚C`;
-      //
       const icon = data.weather[0].icon;
       imgIcon = `http://openweathermap.org/img/w/${icon}.png`;
       const image = new Image();
       image.src = imgIcon;
       weather.appendChild(image);
-      //
     });
 }
 function onGeoError() {

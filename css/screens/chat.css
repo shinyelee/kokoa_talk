@@ -191,17 +191,16 @@ img {
 }
 
 #todo-list {
-  justify-content: space-between;
   text-align: right;
 }
 
 #todo-list li {
-  background-color: var(--yellow);
+  margin: 25px;
   padding: 13px;
   font-size: 18px;
   border-radius: 15px;
   border-top-right-radius: 0px;
-  margin: 25px;
+  background-color: var(--yellow);
 }
 
 #todo-list button {

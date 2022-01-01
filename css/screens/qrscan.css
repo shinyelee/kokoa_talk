@@ -1,0 +1,26 @@
+.qrscan__column__camera {
+  height: 550px;
+  background-color: black;
+}
+
+.qrscan__column__camera__flash {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 30px;
+  left: 365px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  background-color: var(--font-color);
+}
+
+.qrscan__column__camera__aim {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--yellow);
+}

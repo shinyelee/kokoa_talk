@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>큐알코드스캔</title>
+  </head>
+  <body id="sub-screen">
+    <!-- 상태바 -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        &nbsp;
+        <i class="fas fa-underline"></i>
+        <span id="clock">00:00</span>
+        <i class="fas fa-comment"></i>
+        <i class="fas fa-bullhorn"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>shinyelee</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-volume-mute fa-lg">&nbsp;</i>
+        <i class="fas fa-wifi">&nbsp;</i>
+        <i class="fas fa-signal">&nbsp;</i>
+        <span>17%&nbsp;</span>
+        <i class="fas fa-battery-quarter">&nbsp;</i>
+      </div>
+    </div>
+    <!-- 헤더 -->
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="javascript:history.back();">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </a>
+        <span class="alt-header__column__title">코드스캔</span>
+      </div>
+      <div class="alt-header__column">
+        <span>앨범</span>
+      </div>
+    </header>
+    <!-- 메뉴 목록 -->
+    <main class="main-screen qrscan">
+      <div class="qrscan__column">
+        <div class="qrscan__column__camera">
+          <div class="qrscan__column__camera__flash">
+            <i class="fas fa-bolt fa-2x"></i>
+          </div>
+          <div class="qrscan__column__camera__aim">
+            <i class="far fa-plus-square fa-4x"></i>
+          </div>
+        </div>
+      </div>
+      <div class="qrscan__column">
+        <span class="qrscan__column__text">
+          QR코드/바코드를 스캔하거나 QR 이미지를 업로드 해보세요.
+        </span>
+        <span class="qrscan__column__text">
+          (친구·채널 추가, 송금, 결제, 공과금 납부 등 이용가능)
+        </span>
+        <div class="qrscan__column">
+          <div class="qrscan__column__menu">
+            <div class="qrscan__column__menu__icon"></div>
+            <div class="qrscan__column__menu__name">코드스캔</div>
+          </div>
+          <div class="qrscan__column__menu">
+            <div class="qrscan__column__menu__icon"></div>
+            <div class="qrscan__column__menu__name">내프로필</div>
+          </div>
+          <div class="qrscan__column__menu">
+            <div class="qrscan__column__menu__icon"></div>
+            <div class="qrscan__column__menu__name">송금코드</div>
+          </div>
+          <div class="qrscan__column__menu">
+            <div class="qrscan__column__menu__icon"></div>
+            <div class="qrscan__column__menu__name">결제코드</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- 모바일 -->
+    <div id="no-mobile">
+      <span>
+        😥모바일 전용 화면입니다<br /><br />
+        창의 크기를 줄여주세요🙏
+      </span>
+    </div>
+    <script src="js/clock.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

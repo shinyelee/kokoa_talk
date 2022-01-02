@@ -28,6 +28,53 @@
         <i class="fas fa-battery-quarter">&nbsp;</i>
       </div>
     </div>
+    <!-- 모달 -->
+    <div class="modal hidden">
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <!-- 모달 헤더 -->
+        <header class="alt-header">
+          <div class="alt-header__column">
+            <a href="javascript:history.back();">
+              <i class="fas fa-arrow-left fa-2x"></i>
+            </a>
+            <span class="alt-header__column__title">설정</span>
+          </div>
+          <div class="alt-header__column"></div>
+        </header>
+        <!-- 모달 아이콘 -->
+        <main class="main-screen modal-screen">
+          <div class="more-suggestions">
+            <div class="more-suggestions__icons">
+              <div class="more-suggestions__icon">
+                <div class="more-suggestions__icon-image--sm">
+                  <i class="fas fa-qrcode fa-2x"></i>
+                </div>
+                <div class="more-suggestions__icon-text">QR코드</div>
+              </div>
+              <div class="more-suggestions__icon">
+                <div class="more-suggestions__icon-image--sm">
+                  <i class="fas fa-address-book fa-2x"></i>
+                </div>
+                <div class="more-suggestions__icon-text">연락처로 추가</div>
+              </div>
+              <div class="more-suggestions__icon">
+                <div class="more-suggestions__icon-image--sm">
+                  <i class="fas fa-key fa-2x"></i>
+                </div>
+                <div class="more-suggestions__icon-text">ID로 추가</div>
+              </div>
+              <div class="more-suggestions__icon">
+                <div class="more-suggestions__icon-image--sm">
+                  <i class="fas fa-user-plus fa-2x"></i>
+                </div>
+                <div class="more-suggestions__icon-text">추천친구</div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
     <!-- 헤더 -->
     <header class="screen-header">
       <h1 class="screen-header__title">친구</h1>
@@ -35,7 +82,7 @@
         <span>
           <i class="fas fa-search fa-lg"></i>
         </span>
-        <span>
+        <span id="modal-open">
           <i class="fas fa-user-plus fa-lg"></i>
         </span>
         <span>
@@ -258,6 +305,7 @@
         창의 크기를 줄여주세요🙏
       </span>
     </div>
+    <script src="js/modal.js"></script>
     <script src="js/clock.js"></script>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

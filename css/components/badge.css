@@ -1,7 +1,8 @@
-.badge {
-  width: 28px;
-  height: 28px;
-  border-radius: 14px;
+.badge,
+.no-badge {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +22,10 @@
   font-weight: 600;
   color: white;
   background-color: var(--font-color);
+}
+
+.no-badge {
+  background-color: white;
 }
 
 .hidden {

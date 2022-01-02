@@ -4,11 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 600;
 }
 
 .alt-header__column__title {
   font-size: 20px;
-  font-weight: 600;
 }
 
 .alt-header__column {

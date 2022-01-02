@@ -41,7 +41,7 @@
       </div>
     </header>
     <!-- 메뉴 목록 -->
-    <main class="main-screen qrscan">
+    <main class="qrscan">
       <div class="qrscan__column">
         <div class="qrscan__column__camera">
           <div class="qrscan__column__camera__flash">
@@ -56,26 +56,36 @@
         <span class="qrscan__column__text">
           QR코드/바코드를 스캔하거나 QR 이미지를 업로드 해보세요.
         </span>
+        <br />
         <span class="qrscan__column__text">
           (친구·채널 추가, 송금, 결제, 공과금 납부 등 이용가능)
         </span>
-        <div class="qrscan__column">
-          <div class="qrscan__column__menu">
-            <div class="qrscan__column__menu__icon"></div>
-            <div class="qrscan__column__menu__name">코드스캔</div>
+      </div>
+      <!-- 아이콘 -->
+      <div class="qrscan__column more-suggestions__icons">
+        <div class="more-suggestions__icon selected">
+          <div class="more-suggestions__icon-image--sm">
+            <i class="fas fa-qrcode fa-2x"></i>
           </div>
-          <div class="qrscan__column__menu">
-            <div class="qrscan__column__menu__icon"></div>
-            <div class="qrscan__column__menu__name">내프로필</div>
+          <div class="more-suggestions__icon-text">코드스캔</div>
+        </div>
+        <div class="more-suggestions__icon">
+          <div class="more-suggestions__icon-image--sm">
+            <i class="fas fa-user-plus fa-2x"></i>
           </div>
-          <div class="qrscan__column__menu">
-            <div class="qrscan__column__menu__icon"></div>
-            <div class="qrscan__column__menu__name">송금코드</div>
+          <div class="more-suggestions__icon-text">내프로필</div>
+        </div>
+        <div class="more-suggestions__icon">
+          <div class="more-suggestions__icon-image--sm">
+            <i class="fas fa-won-sign fa-2x"></i>
           </div>
-          <div class="qrscan__column__menu">
-            <div class="qrscan__column__menu__icon"></div>
-            <div class="qrscan__column__menu__name">결제코드</div>
+          <div class="more-suggestions__icon-text">송금코드</div>
+        </div>
+        <div class="more-suggestions__icon">
+          <div class="more-suggestions__icon-image--sm">
+            <i class="fas fa-shopping-bag fa-2x"></i>
           </div>
+          <div class="more-suggestions__icon-text">결제코드</div>
         </div>
       </div>
     </main>

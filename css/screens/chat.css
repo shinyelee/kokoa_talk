@@ -189,3 +189,21 @@ img {
 .reply:focus-within {
   transform: translateY(80px);
 }
+
+#todo-list {
+  text-align: right;
+}
+
+#todo-list li {
+  margin: 25px;
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  background-color: var(--yellow);
+}
+
+#todo-list button {
+  border: none;
+  background-color: var(--yellow);
+}

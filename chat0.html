@@ -31,7 +31,7 @@
     <!-- 헤더 -->
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="chats.html">
+        <a href="javascript:history.back();">
           <i class="fas fa-arrow-left fa-2x"></i>
         </a>
         <span class="alt-header__column__title">나비스</span>
@@ -44,29 +44,29 @@
     </header>
     <!-- 채팅창 -->
     <main class="main-screen main-chat">
-      <div class="chat__timestamp">2021년 12월 31일 금요일</div>
+      <div id="today" class="chat__timestamp">0년 0월 0일 0요일</div>
       <div class="message-row message-row__own">
         <div class="message-row__content">
           <div class="message__info">
-            <span class="message__bubble">메모장</span>
-            <span class="message__time">오전 11:17</span>
+            <ul id="todo-list"></ul>
           </div>
         </div>
       </div>
     </main>
-    <!-- 메시지 입력창 -->
-    <form class="reply">
+    <!-- 메모장 -->
+    <form id="todo-form" class="reply">
       <div class="reply__column">
         <i class="far fa-plus-square fa-2x"></i>
       </div>
       <div class="reply__column">
-        <input type="text" placeholder="Write a message..." />
+        <input type="text" placeholder="메모할 내용을 입력하세요." required />
         <i class="far fa-smile fa-lg"></i>
         <button>
           <i class="fas fa-arrow-up"></i>
         </button>
       </div>
     </form>
+
     <!-- 모바일 -->
     <div id="no-mobile">
       <span>
@@ -74,6 +74,7 @@
         창의 크기를 줄여주세요🙏
       </span>
     </div>
+    <script src="js/todo.js"></script>
     <script src="js/clock.js"></script>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

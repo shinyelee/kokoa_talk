@@ -61,6 +61,17 @@
   color: var(--font-color);
 }
 
+.more-suggestions__icon-image--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  color: var(--font-color);
+}
+
 .more-suggestions__icon-image i {
   font-size: 40px;
 }

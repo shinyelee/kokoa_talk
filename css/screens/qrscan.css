@@ -1,0 +1,53 @@
+.qrscan__column__camera {
+  height: 550px;
+  background-color: black;
+}
+
+.qrscan__column__camera__flash {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 20px;
+  left: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  background-color: var(--font-color);
+}
+
+.qrscan__column__camera__aim {
+  position: relative;
+  display: flex;
+  top: 175px;
+  align-items: center;
+  justify-content: center;
+  color: var(--yellow);
+}
+
+.qrscan__column:nth-child(2) {
+  margin: 50px 30px;
+  text-align: center;
+  font-size: 16px;
+  color: var(--dark-gray);
+}
+
+.qrscan__column:last-child {
+  margin: 20px;
+}
+
+.selected .more-suggestions__icon-image--sm {
+  border-radius: 50%;
+  background-color: var(--light-gray);
+}
+
+.qrscan__column .more-suggestions__icon-text {
+  margin-top: 5px;
+  color: var(--dark-gray);
+}
+
+.selected .more-suggestions__icon-text {
+  font-weight: 600;
+  color: var(--font-color);
+}

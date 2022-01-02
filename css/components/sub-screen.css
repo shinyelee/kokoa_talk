@@ -1,0 +1,22 @@
+#sub-screen .alt-header,
+#sub-screen .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+#sub-screen .status-bar {
+  z-index: 2;
+}
+
+#sub-screen .alt-header {
+  top: 10px;
+  z-index: 1;
+}
+
+#sub-screen,
+#music-screen {
+  margin: 90px 0 0 0;
+}

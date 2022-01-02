@@ -1,4 +1,5 @@
-.badge {
+.badge,
+.no-badge {
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -21,6 +22,10 @@
   font-weight: 600;
   color: white;
   background-color: var(--font-color);
+}
+
+.no-badge {
+  background-color: white;
 }
 
 .hidden {

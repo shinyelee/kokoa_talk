@@ -1,6 +1,6 @@
-const weather = document.querySelector(".weather__column__weather");
-const city = document.querySelector(".weather__column__city");
-const icon = document.querySelector(".weather__column__icon");
+const weather = document.querySelector(".weather__info");
+const city = document.querySelector(".weather__city");
+const icon = document.querySelector(".weather__icon");
 const API_KEY = "8cd894e12de3fa5eaa1066e961a9fd37";
 
 function onGeoOk(position) {

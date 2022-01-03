@@ -25,6 +25,6 @@
   justify-content: flex-end;
 }
 
-.alt-header__column span:last-child {
+.alt-header__column span {
   margin-left: 20px;
 }

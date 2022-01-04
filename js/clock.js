@@ -11,14 +11,7 @@ const weeks = new Array("일", "월", "화", "수", "목", "금", "토");
 const week = weeks[date.getDay()];
 
 function getClock() {
-  if (hours > 12) {
-    clock.innerText = `${hours - 12}:${minutes}`;
-  }
-  if (hours == 0) {
-    clock.innerText = `12:${minutes}`;
-  } else {
-    clock.innerText = `${hours}:${minutes}`;
-  }
+  clock.innerText = `${hours}:${minutes}`;
 }
 
 function getToday() {

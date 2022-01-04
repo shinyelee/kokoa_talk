@@ -31,34 +31,29 @@
     <!-- 헤더 -->
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html">
+        <a href="javascript:history.back();">
           <i class="fas fa-arrow-left fa-2x"></i>
         </a>
         <span class="alt-header__column__title">지도</span>
       </div>
-      <div class="alt-header__column"></i>
-      </div>
+      <div class="alt-header__column"></div>
     </header>
-  <!-- 지도 -->
+    <!-- 지도 -->
     <div class="map_wrap">
       <div
         id="map"
         style="width: 100%; height: 100%; position: relative; overflow: hidden"
       ></div>
-      <div id="menu_wrap" class="bg_white">
-        <div class="option">
-          <div>
-            <form onsubmit="searchPlaces(); return false;">
-              키워드 :
-              <input type="text" value="병원" id="keyword" size="15" />
-              <button type="submit">검색하기</button>
-            </form>
-          </div>
-        </div>
-        <hr />
-        <ul id="placesList"></ul>
-        <div id="pagination"></div>
-      </div>
+      <ul id="category">
+        <li id="HP8" data-order="0">
+          <span class="category_bg bank"></span>
+          병원
+        </li>
+        <li id="PM9" data-order="1">
+          <span class="category_bg pharmacy"></span>
+          약국
+        </li>
+      </ul>
     </div>
     <!-- 모바일 -->
     <div id="no-mobile">
@@ -67,15 +62,15 @@
         창의 크기를 줄여주세요🙏
       </span>
     </div>
-    <script src="js/map.js"></script>
-    <script src="js/clock.js"></script>
-    <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
     <script
       type="text/javascript"
       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a18c3f4a26a3cfd50be260055f8ed882&libraries=services"
+    ></script>
+    <script src="js/clock.js"></script>
+    <script src="js/map.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
     ></script>
   </body>
 </html>

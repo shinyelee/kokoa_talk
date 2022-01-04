@@ -13,6 +13,9 @@ const week = weeks[date.getDay()];
 function getClock() {
   if (hours > 12) {
     clock.innerText = `${hours - 12}:${minutes}`;
+  }
+  if (hours == 0) {
+    clock.innerText = `12:${minutes}`;
   } else {
     clock.innerText = `${hours}:${minutes}`;
   }

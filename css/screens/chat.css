@@ -120,7 +120,13 @@ img {
 }
 
 .reply i {
-  opacity: 0.5;
+  color: var(--dark-gray);
+}
+
+.fa-plus {
+  padding: 2px 3px;
+  border-radius: 5px;
+  border: 2px solid var(--dark-gray);
 }
 
 .reply input {
@@ -154,11 +160,11 @@ img {
 }
 
 .reply__column button {
-  background-color: var(--yellow);
   border: none;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  background-color: white;
 }
 
 .reply__column button i {
@@ -195,7 +201,7 @@ img {
 }
 
 #todo-list li {
-  margin: 25px;
+  margin-bottom: 20px;
   padding: 13px;
   font-size: 18px;
   border-radius: 15px;

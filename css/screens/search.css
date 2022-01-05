@@ -1,0 +1,49 @@
+.search-screen {
+  margin-top: 45px;
+  font-size: 18px;
+  background-color: var(--pale-gray);
+}
+
+.search-screen .status-bar {
+  background-color: var(--pale-gray);
+}
+
+.search-box {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.search-box .fa-arrow-left {
+  padding-right: 15px;
+}
+
+.search-box--search .search-box__row,
+.search-box--recent .search-box__row,
+.search-box--imoticon .search-box__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-box h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.search-box--search {
+  background-color: var(--light-gray);
+}
+
+.search-box--search input {
+  font-size: 20px;
+  border: none;
+  background-color: var(--light-gray);
+}
+
+.search-box--openchatting span,
+.search-box--channel span {
+  border-radius: 10px;
+  background-color: var(--pale-gray);
+}

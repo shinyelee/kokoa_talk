@@ -42,8 +42,35 @@
   background-color: var(--light-gray);
 }
 
+.search-box__row__column__light-gray {
+  color: var(--light-gray);
+}
+
+.search-box__row__column__dark-gray {
+  color: var(--dark-gray);
+}
+
+.search-box__row-center {
+  margin: 40px 0 10px 0;
+  display: inline-block;
+  text-align: center;
+  background-color: pink;
+}
+
 .search-box--openchatting span,
 .search-box--channel span {
-  border-radius: 10px;
+  margin: 10px 5px 0 0;
+  padding: 10px 12px;
+  display: inline-block;
+  border-radius: 20px;
   background-color: var(--pale-gray);
+}
+
+.search-box__row__imoticon-box {
+  text-align: center;
+}
+
+.search-box__row__imoticon-box img {
+  width: 100px;
+  height: 100px;
 }

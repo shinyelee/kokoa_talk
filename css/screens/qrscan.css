@@ -27,7 +27,7 @@
 }
 
 .qrscan__column:nth-child(2) {
-  margin: 50px 30px;
+  margin: 30px 30px;
   text-align: center;
   font-size: 16px;
   color: var(--dark-gray);

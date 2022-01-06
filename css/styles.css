@@ -39,7 +39,3 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
-
-.status-bar .fa-bullhorn {
-  color: red;
-}

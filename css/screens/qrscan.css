@@ -1,5 +1,5 @@
 .qrscan__column__camera {
-  height: 400px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,11 +7,11 @@
 }
 
 .qrscan__column__camera__flash {
-  bottom: 130px;
-  left: 200px;
+  bottom: 100px;
+  left: 150px;
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;

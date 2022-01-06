@@ -37,12 +37,12 @@
 }
 
 .search-box--search input {
-  width: 300px;
+  width: 240px;
   height: 20px;
   font-size: 16px;
   font-weight: 600;
   border: none;
-  background-color: var(--pale-gray);
+  background-color: var(--light-gray);
 }
 
 .search-box__row__column__light-gray {

@@ -9,6 +9,7 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+  background-color: var(--font-color);
 }
 
 #music-screen .status-bar {
@@ -25,12 +26,10 @@
 }
 
 .music-player {
-  margin: 0 40px;
+  margin: 0 30px;
 }
 
 .music-player__cover {
-  margin: 30px 0;
-  padding-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,11 +62,11 @@
 }
 
 .stream {
-  height: 130px;
+  height: 60px;
 }
 
 .stream__bar {
-  height: 50px;
+  height: 10px;
   border-bottom: 2px solid var(--light-gray);
 }
 
@@ -81,4 +80,5 @@
 .stream__time__start,
 .music-player__btns .fa-play {
   color: var(--music);
+  padding-bottom: 20px;
 }

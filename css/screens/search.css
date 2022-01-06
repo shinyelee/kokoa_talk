@@ -36,20 +36,13 @@
   background-color: var(--light-gray);
 }
 
-.search-box--search .search-box__row__column:first-child {
-  width: 100%;
-}
-
-.search-box--search .search-box__row__column:last-child {
-  padding-left: 5px;
-}
-
 .search-box--search input {
-  width: 90%;
+  width: 300px;
+  height: 20px;
   font-size: 16px;
   font-weight: 600;
   border: none;
-  background-color: var(--light-gray);
+  background-color: var(--pale-gray);
 }
 
 .search-box__row__column__light-gray {

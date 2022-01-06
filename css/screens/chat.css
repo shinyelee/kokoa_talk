@@ -1,3 +1,4 @@
+/* chat0~2.html */
 #chat-screen {
   background-color: var(--light-blue);
 }
@@ -20,6 +21,7 @@
   z-index: 1;
 }
 
+/* 채팅창 로딩 애니메이션 */
 @keyframes fadeIn {
   from {
     transform: translateY(30px);
@@ -31,6 +33,7 @@
   }
 }
 
+/* 채팅창 */
 .main-chat {
   margin-top: 120px;
   display: flex;
@@ -106,6 +109,7 @@ img {
   flex-direction: row-reverse;
 }
 
+/* 메시지 입력창 */
 .reply {
   position: fixed;
   bottom: 0;
@@ -196,6 +200,7 @@ img {
   transform: translateY(80px);
 }
 
+/* 나와의 채팅 */
 #todo-list {
   text-align: right;
 }

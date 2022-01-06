@@ -1,3 +1,4 @@
+/* search.html */
 .search-screen {
   margin: 45px 0 20px 0;
   font-size: 18px;
@@ -15,10 +16,13 @@
   background-color: white;
 }
 
-.search-box .fa-arrow-left {
-  padding-right: 5px;
+.search-box h2 {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
 }
 
+/* 검색창, 최근 검색 */
 .search-box--search .search-box__row,
 .search-box--recent .search-box__row {
   display: flex;
@@ -26,16 +30,15 @@
   justify-content: space-between;
 }
 
-.search-box h2 {
-  margin: 10px 0;
-  font-size: 20px;
-  font-weight: 600;
-}
-
+/* 검색창 */
 .search-box--search {
   margin: 0;
   padding: 0 20px;
   background-color: var(--pale-gray);
+}
+
+.search-box .fa-arrow-left {
+  padding-right: 5px;
 }
 
 .search-box--search__row {
@@ -59,6 +62,7 @@
   background-color: var(--light-gray);
 }
 
+/* 최근 검색 */
 .search-box__row__column__light-gray {
   color: var(--light-gray);
 }
@@ -74,6 +78,7 @@
   padding: 30px 20px 10px 20px;
 }
 
+/* 오픈채팅 추천 키워드, 채널 추천 키워드 */
 .search-box--openchatting span,
 .search-box--channel span {
   margin: 10px 5px 0 0;
@@ -83,6 +88,7 @@
   background-color: var(--pale-gray);
 }
 
+/* 추천 이모티콘 스타일 */
 .search-box--imoticon .search-box__row {
   display: flex;
   align-items: center;

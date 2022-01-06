@@ -1,3 +1,5 @@
+/* more.html */
+/* 지갑 */
 .wallet {
   position: relative;
   top: -10px;
@@ -38,6 +40,7 @@
   background-color: white;
 }
 
+/* 더보기 아이콘들 */
 .more-suggestions__icons {
   padding: 5px 0;
   display: flex;

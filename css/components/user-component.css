@@ -1,3 +1,4 @@
+/* friends.html, chats.html, chat0~2.html의 유저 컴포넌트 */
 .user-component {
   justify-content: space-between;
   margin-bottom: 30px;
@@ -16,6 +17,7 @@
   align-items: flex-end;
 }
 
+/* 크기별 프로필 사진 */
 .user-component__avatar {
   width: 70px;
   height: 70px;
@@ -93,6 +95,7 @@
   display: block;
 }
 
+/* 친구 - 프로필 뮤직 */
 .user-component__column__music {
   padding: 7px;
   font-size: 14px;

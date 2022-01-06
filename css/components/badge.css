@@ -1,3 +1,4 @@
+/* nav-bar, chats.html의 배지 */
 .badge,
 .no-badge {
   width: 24px;
@@ -26,8 +27,4 @@
 
 .no-badge {
   background-color: white;
-}
-
-.hidden {
-  visibility: hidden;
 }

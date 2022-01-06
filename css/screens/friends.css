@@ -1,3 +1,4 @@
+/* friends.html */
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
@@ -15,6 +16,7 @@
   color: var(--dark-gray);
 }
 
+/* 로그인 후 로딩화면 */
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
@@ -40,6 +42,7 @@
   animation-delay: 0.7s;
 }
 
+/* 업데이트한 친구 */
 .friends-screen-updated {
   margin-top: 25px;
   border-top: 1px solid var(--light-gray);
@@ -73,8 +76,4 @@
   margin-top: 5px;
   text-align: center;
   font-size: 14px;
-}
-
-.screen-header__icons .fa-user-plus {
-  cursor: pointer;
 }

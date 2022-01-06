@@ -1,12 +1,9 @@
+/* shop.html */
 .shopping {
   border-bottom: var(--main-border);
 }
 
-.icon-row {
-  padding: 30px 0;
-  font-size: 14px;
-}
-
+/* 뮤직비디오 */
 .shop__ad {
   position: relative;
   width: 100%;
@@ -19,32 +16,9 @@
   height: 100%;
 }
 
-.recommend__list {
-  display: flex;
-  padding-bottom: 30px;
-}
-
-.recommend__list__icon {
-  display: flex;
-  align-items: center;
-  margin-right: 20px;
-  color: var(--dark-gray);
-}
-
-.recommend__list__keywords {
-  padding: 15px 0;
-}
-
-.recommend__list__keywords span {
-  display: inline-flexbox;
-  padding: 10px 15px;
-  border-radius: 30px;
-  border: 1px solid var(--light-blue);
-  color: var(--blue);
-}
-
+/* 검색창 */
 .recommend__search {
-  margin: 30px 0 20px 0;
+  margin: 25px 0;
   padding-left: 5px;
   width: 100%;
   height: 60px;
@@ -66,6 +40,7 @@
   background-color: var(--pale-gray);
 }
 
+/* 톡딜박스 */
 .td {
   border-top: 12px solid var(--pale-gray);
 }
@@ -110,6 +85,7 @@
   margin-left: 3px;
 }
 
+/* 톡딜박스의 하트 */
 @keyframes hrtBeat {
   0% {
     color: white;

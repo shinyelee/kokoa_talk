@@ -43,7 +43,7 @@
 .music-player__title,
 .music-player__artist,
 .music-player__options {
-  margin: 15px 0;
+  margin: 10px 0;
   text-align: center;
 }
 
@@ -58,11 +58,11 @@
 }
 
 .music-player__options i {
-  padding: 20px;
+  padding: 15px;
 }
 
 .stream {
-  height: 60px;
+  height: 40px;
 }
 
 .stream__bar {
@@ -80,5 +80,4 @@
 .stream__time__start,
 .music-player__btns .fa-play {
   color: var(--music);
-  padding-bottom: 20px;
 }

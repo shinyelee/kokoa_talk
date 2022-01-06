@@ -1,3 +1,4 @@
+/* friends.html, chats.html, shop.html, more.html의 헤더 */
 .screen-header {
   display: flex;
   justify-content: space-between;
@@ -37,6 +38,7 @@
   margin-left: 25px;
 }
 
+/* search 아이콘 */
 @keyframes moving {
   50% {
     transform: rotateZ(-20deg);
@@ -51,18 +53,7 @@
   animation: moving 1s ease-in-out infinite;
 }
 
-@keyframes beating {
-  50% {
-    transform: scale(1.2);
-  }
-}
-
-.screen-header__icons .fa-user-plus:hover,
-.screen-header__icons .fa-comment-dots:hover {
-  will-change: transform;
-  animation: beating 1s linear infinite;
-}
-
+/* qrscan 아이콘 */
 @keyframes blinking {
   50% {
     opacity: 0;
@@ -77,6 +68,7 @@
   animation: blinking 1s ease-in-out infinite;
 }
 
+/* music 아이콘 */
 @keyframes translating {
   50% {
     transform: translateY(-5px);
@@ -87,6 +79,7 @@
   animation: translating 1s ease-in-out infinite;
 }
 
+/* settings 아이콘 */
 @keyframes rotating {
   from {
     transform: none;

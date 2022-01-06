@@ -1,3 +1,5 @@
+/* chats.html */
+/* 광고(jpg->gif) */
 .chats__ad {
   display: flex;
   align-items: center;
@@ -22,10 +24,12 @@
   color: var(--blue);
 }
 
+/* 구분선 */
 .chats-karina {
   border-bottom: var(--main-border);
 }
 
+/* 날씨 */
 #weather {
   margin-top: 20px;
   display: flex;

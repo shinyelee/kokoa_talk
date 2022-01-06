@@ -1,3 +1,5 @@
+/* index.html */
+/* 헤더 */
 .welcome-header {
   margin: 90px 0px;
   text-align: center;
@@ -17,6 +19,7 @@
   opacity: 0.7;
 }
 
+/* 로그인 폼 */
 #login-form {
   display: flex;
   flex-direction: column;

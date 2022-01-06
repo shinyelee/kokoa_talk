@@ -1,3 +1,1 @@
-# Kokoa Clone
-
-HTML & CSS are so much fun!
+# 카카오톡 클론코딩 코코아톡(read.me 작성중)

@@ -1,3 +1,4 @@
+/* nav-bar */
 .nav {
   position: fixed;
   bottom: 0;
@@ -18,6 +19,7 @@
   color: var(--font-color);
 }
 
+/* nav-bar chats 아이콘의 배지 */
 .nav__chat {
   position: absolute;
   left: 20px;
@@ -29,6 +31,17 @@
   50% {
     transform: translateY(-5px);
   }
+}
+
+/* nav-bar의 점 */
+.dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav__more {
@@ -47,6 +60,7 @@
   }
 }
 
+/* nav-bar의 팝업 효과 */
 @keyframes btnPopup {
   from {
     opacity: 0;

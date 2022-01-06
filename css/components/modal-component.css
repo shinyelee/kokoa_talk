@@ -1,3 +1,4 @@
+/* friends.html, chats.html의 모달창 */
 #modal-open,
 .fa-arrow-left {
   cursor: pointer;
@@ -32,4 +33,27 @@
 
 .new-chatting .more-suggestions__icons {
   margin: 0 40px;
+}
+
+/* 유저가 아이콘을 클릭하기 전까지 모달창을 숨겨줌 */
+.hidden {
+  visibility: hidden;
+}
+
+/* 모달 아이콘 */
+.screen-header__icons .fa-user-plus,
+.screen-header__icons .fa-comment-dots {
+  cursor: pointer;
+}
+
+@keyframes beating {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.screen-header__icons .fa-user-plus:hover,
+.screen-header__icons .fa-comment-dots:hover {
+  will-change: transform;
+  animation: beating 1s linear infinite;
 }

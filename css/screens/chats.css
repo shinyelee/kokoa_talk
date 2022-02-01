@@ -23,31 +23,3 @@
 .fa-ad {
   color: var(--blue);
 }
-
-/* 구분선 */
-.chats-karina {
-  border-bottom: var(--main-border);
-}
-
-/* 날씨 */
-#weather {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#weather img {
-  background-color: white;
-}
-
-.weather__city {
-  font-size: 16px;
-  color: var(--dark-gray);
-}
-
-.weather__info {
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--font-color);
-}

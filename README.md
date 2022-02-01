@@ -49,6 +49,8 @@ setInterval(getToday, 500);
 }
 ```
 
+<br>
+
 ![image](https://user-images.githubusercontent.com/68595933/151915234-63d735fe-9ba5-4928-9e6f-afc9204aff4b.png)
 
 - 클릭하면 나타나는 모달창(친구-설정, 채팅-새로운 채팅)
@@ -64,6 +66,8 @@ overlay.addEventListener("click", closeModal);
 closeIcon.addEventListener("click", closeModal);
 openIcon.addEventListener("click", openModal);
 ```
+
+<br>
 
 ![image](https://user-images.githubusercontent.com/68595933/151915385-e3b77b28-76f3-4311-95fb-7ce9d331cf29.png)
 
@@ -84,6 +88,8 @@ var mapContainer = document.getElementById("map"),
 var map = new kakao.maps.Map(mapContainer, mapOption);
 // 이하 생략
 ```
+
+<br>
 
 ## 문제점 및 개선사항
 

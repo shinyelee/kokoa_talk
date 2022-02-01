@@ -5,20 +5,17 @@
 > 카카오톡 클론코딩 프로젝트 [데모](https://shinyelee.github.io/kokoa-clone/)
 
 모바일 환경에서 열어 보는 것을 권장합니다. 실제 카카오톡 화면과 최대한 유사하게 구현해 세로 화면에 최적화 되어 있습니다. 화면폭이 600px을 초과하면 콘텐츠를 표시하지 않습니다.
-<br>
 
 ## 개발 목표
 
 - HTML, CSS만으로 카카오톡 화면과 최대한 유사한 인터페이스 구현하기
 - Vanilla JavaScript 사용해 보기
-  <br>
 
 ## 사용 기술
 
 - HTML
 - CSS
 - JavaScript
-  <br>
 
 ## JavaScript 기능
 
@@ -92,18 +89,15 @@ var map = new kakao.maps.Map(mapContainer, mapOption);
 // 이하 생략
 ```
 
-<br>
-
 ## 문제점 및 개선사항
 
 - 반응형이 아닌 정적 웹사이트
   > flexbox, grid, media query 공부하기
 - PC화면과 모바일화면이 상이함
-  > px 등 절대단위 대신 fr 등 상대단위 사용하기
+  > 절대단위 대신 상대단위 사용하기
 - 코드의 재사용성 및 가독성이 떨어짐
   > SCSS 공부하기
 - api 조작 미숙
   > documentation 많이 읽어보기
 - JavaScript를 거의 사용하지 않음
   > JavaScript 공부하기
-  > 다음 프로젝트에서 JavaScript 비중 늘리기

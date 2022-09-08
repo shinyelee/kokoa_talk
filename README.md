@@ -135,5 +135,5 @@ var map = new kakao.maps.Map(mapContainer, mapOption);
 
 <!-- 링크 -->
 
-[데모]: (https://shinyelee.github.io/kokoa_talk/)
-[참고]: (https://nomadcoders.github.io/kokoa-clone-2020/more.html)
+[데모]: https://shinyelee.github.io/kokoa_talk/
+[참고]: https://nomadcoders.github.io/kokoa-clone-2020/

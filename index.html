@@ -10,15 +10,18 @@
   <body class="screen">
     <!-- 상태바 -->
     <div class="status-bar">
+      <!-- 시계 및 알림 -->
       <div class="status-bar__column">
         <i class="fas fa-underline"></i>
         <span id="clock">00:00</span>
         <i class="fas fa-comment"></i>
         <i class="fas fa-bullhorn"></i>
       </div>
+      <!-- 닉네임 -->
       <div class="status-bar__column">
         <span>shinyelee</span>
       </div>
+      <!-- 아이콘 및 배터리 -->
       <div class="status-bar__column">
         <i class="fas fa-wifi"></i>
         <i class="fas fa-signal"></i>
@@ -28,10 +31,13 @@
     </div>
     <!-- 로그인 폼 -->
     <header class="welcome-header">
+      <!-- 안내 -->
       <h1 class="welcome-header__title">코코아톡에 오신 걸 환영합니다.</h1>
       <p class="welcome-header__text">로그인이 필요한 페이지입니다.</p>
     </header>
+    <!-- 입력란 -->
     <form action="friends.html" method="get" id="login-form">
+      <!-- 이메일주소 -->
       <input
         minlength="4"
         maxlength="20"
@@ -40,6 +46,7 @@
         placeholder="카카오계정 (이메일 또는 전화번호)"
         required
       />
+      <!-- 비밀번호 -->
       <input
         minlength="4"
         maxlength="20"
@@ -48,7 +55,9 @@
         placeholder="비밀번호"
         required
       />
+      <!-- 로그인 버튼 -->
       <input type="submit" value="로그인" />
+      <!-- 체크박스 -->
       <span>
         <input type="checkbox" />
         자동로그인

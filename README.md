@@ -1,103 +1,87 @@
-# 코코아톡
+# 코코아톡 KokoaTalk
 
-![01_mobile_pc](https://user-images.githubusercontent.com/68595933/148503753-b8ce4ad7-90a5-4f7e-89b4-520a91cf2a76.jpg)
+> 카카오톡의 외부 모습을 클론코딩한 프로젝트. 기본적인 HTML, CSS를 활용하여 이쁘장한 프로필, 채팅창을 만들어봅니다" [데모][데모]
 
-> 카카오톡 클론코딩 프로젝트 [데모](https://shinyelee.github.io/kokoa-clone/)
+![cover](https://user-images.githubusercontent.com/68595933/148503753-b8ce4ad7-90a5-4f7e-89b4-520a91cf2a76.jpg)
 
-모바일 환경에서 열어 보는 것을 권장합니다. 실제 카카오톡 화면과 최대한 유사하게 구현해 세로 화면에 최적화 되어 있습니다. 화면폭이 600px을 초과하면 콘텐츠를 표시하지 않습니다.
+---
 
-## 개발 목표
+## 시작
 
-- HTML, CSS만으로 카카오톡 화면과 최대한 유사한 인터페이스 구현하기
-- Vanilla JavaScript 사용해 보기
+이 지침은 개발 및 테스트 목적으로 로컬 컴퓨터에서 실행 중인 프로젝트 복사본을 얻을 수 있습니다. 라이브 시스템에 프로젝트를 배포하는 방법에 대한 참고 사항은 배포를 참조하세요.
 
-## 사용 기술
+### 전제조건
 
-- HTML
-- CSS
-- JavaScript
+소프트웨어를 설치하는 데 필요한 항목과 설치 방법
 
-## JavaScript 기능
-
-![image](https://user-images.githubusercontent.com/68595933/151915109-69130133-01a3-4484-a1df-a18169055b8b.png)
-
-- 현재 시각(상단바 좌측 시계) 및 현재 날짜(채팅창 상단)
-
-```javascript
-const date = new Date();
-const hours = String(date.getHours()).padStart(2, "0");
-const minutes = String(date.getMinutes()).padStart(2, "0");
-const year = date.getFullYear();
-const month = date.getMonth();
-const day = date.getDate();
-const weeks = new Array("일", "월", "화", "수", "목", "금", "토");
-const week = weeks[date.getDay()];
-
-function getClock() {
-  clock.innerText = `${hours}:${minutes}`;
-}
-
-function getToday() {
-  today.innerText = `${year}년 ${month + 1}월 ${day}일 ${week}요일`;
-}
-
-getClock();
-setInterval(getClock, 500);
-
-getToday();
-setInterval(getToday, 500);
-}
+```
+Give examples
 ```
 
-<br>
+### 설치
 
-![image](https://user-images.githubusercontent.com/68595933/151915234-63d735fe-9ba5-4928-9e6f-afc9204aff4b.png)
+개발 환경을 실행하는 방법을 알려주는 단계별 예제 시리즈
 
-- 클릭하면 나타나는 모달창(친구-설정, 채팅-새로운 채팅)
+단계가 무엇인지 말하십시오
 
-```javascript
-const openModal = () => {
-  modal.classList.remove("hidden");
-};
-const closeModal = () => {
-  modal.classList.add("hidden");
-};
-overlay.addEventListener("click", closeModal);
-closeIcon.addEventListener("click", closeModal);
-openIcon.addEventListener("click", openModal);
+```
+Give the example
 ```
 
-<br>
+And repeat
 
-![image](https://user-images.githubusercontent.com/68595933/151915385-e3b77b28-76f3-4311-95fb-7ce9d331cf29.png)
-
-- 카카오 오픈api를 이용한 지도(더보기-코로나19 잔여백신 예약·알림)
-
-```javascript
-var placeOverlay = new kakao.maps.CustomOverlay({ zIndex: 1 }),
-  contentNode = document.createElement("div"),
-  markers = [],
-  currCategory = "";
-
-var mapContainer = document.getElementById("map"),
-  mapOption = {
-    center: new kakao.maps.LatLng(37.566826, 126.9786567),
-    level: 2,
-  };
-
-var map = new kakao.maps.Map(mapContainer, mapOption);
-// 이하 생략
+```
+until finished
 ```
 
-## 문제점 및 개선사항
+시스템에서 일부 데이터를 가져오거나 약간의 데모용으로 사용하는 예제로 종료
 
-- 반응형이 아닌 정적 웹사이트
-  > flexbox, grid, media query 공부하기
-- PC화면과 모바일화면이 상이함
-  > 절대단위 대신 상대단위 사용하기
-- 코드의 재사용성 및 가독성이 떨어짐
-  > SCSS 공부하기
-- api 조작 미숙
-  > documentation 많이 읽어보기
-- JavaScript를 거의 사용하지 않음
-  > JavaScript 공부하기
+---
+
+## 배포
+
+라이브 시스템에 배포하는 방법에 대한 추가 참고 사항 추가
+
+---
+
+## 빌드
+
+- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - 사용된 웹 프레임워크
+- [Maven](https://maven.apache.org/) - 종속성 관리
+- [ROME](https://rometools.github.io/rome/) - RSS 피드 생성에 사용
+
+---
+
+## 기여
+
+우리의 행동 강령과 풀 리퀘스트를 제출하는 과정에 대한 [자세한 내용](https://gist.github.com/PurpleBooth/b24679402957c63ec426)을 읽으십시오.
+
+---
+
+## 버전 관리
+
+우리는 버전 관리를 위해 [이것](http://semver.org/)을 사용합니다. 사용 가능한 버전은 [이 태그](https://github.com/your/project/tags)를 참조하세요.
+
+---
+
+## 저자
+
+- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
+
+이 프로젝트에 참여한 [인증자](https://github.com/your/project/contributors) 목록을 참조하십시오.
+
+### 저작권
+
+이 프로젝트는 MIT 라이센스에 따라 라이센스가 부여됩니다. 자세한 내용은 [LICENSE.md](LICENSE.md) 파일을 참조하십시오.
+
+---
+
+## 감사의 말
+
+- 코드가 사용된 모든 사람을 위한 감사 인사
+- 영감
+- 기타
+
+<!-- 링크 -->
+
+[데모]: (https://shinyelee.github.io/kokoa_talk/)

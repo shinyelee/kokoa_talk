@@ -10,7 +10,7 @@
 
 ## 시작
 
-- 대부분 HTML, CSS로 구현한 프로젝트이기 때문에 웹개발보다는 웹퍼블리싱에 가깝습니다.
+- 대부분 HTML, CSS로 구현했기 때문에 웹개발보다는 웹퍼블리싱에 가깝습니다.
 - 실제 카카오톡 화면과 최대한 유사한 비율로 구현했기 때문에 모바일 환경에 최적화 돼 있습니다. 화면 가로 너비가 600px을 초과하면 컨텐츠를 표시하지 않기 때문에, PC환경에서는 창의 가로 너비를 줄여 주시기 바랍니다.
 - [데모 사이트 바로가기][데모]
 
@@ -24,22 +24,23 @@
 
 ### 목표
 
-- HTML, CSS만으로 카카오톡 화면과 최대한 유사한 인터페이스 구현.
-- Vanilla JavaScript 사용.
+- HTML, CSS만으로 카카오톡 화면과 최대한 유사하게 구현해 봅니다.
+- Vanilla JavaScript를 사용해 봅니다.
 
 ### 사용
 
-- HTML/CSS - 대부분 순수 HTML, CSS로 구성.
-- JavaScript - 기능에서 후술.
-- GitHub - 버전 관리.
+- HTML5/CSS3
+- JavaScript ES6
 
 ---
 
 ## 기능
 
-### 현재 시각 및 날짜
+### 시계 및 날짜
 
 ![clock](https://user-images.githubusercontent.com/68595933/151915109-69130133-01a3-4484-a1df-a18169055b8b.png)
+
+- [Date() 생성자][현재 시각]로 시계와 날짜를 구현합니다.
 
 ```javascript
 const date = new Date();
@@ -71,6 +72,8 @@ setInterval(getToday, 500);
 
 ![modal](https://user-images.githubusercontent.com/68595933/151915234-63d735fe-9ba5-4928-9e6f-afc9204aff4b.png)
 
+- 특정 메뉴를 클릭하면 나타나는 모달창을 구현합니다.
+
 ```javascript
 const openModal = () => {
   modal.classList.remove("hidden");
@@ -83,9 +86,11 @@ closeIcon.addEventListener("click", closeModal);
 openIcon.addEventListener("click", openModal);
 ```
 
-### 카카오맵 API
+### 지도
 
 ![map](https://user-images.githubusercontent.com/68595933/151915385-e3b77b28-76f3-4311-95fb-7ce9d331cf29.png)
+
+- [KakaoMaps API][지도 api]를 이용해 지도에 특정 위치를 표시합니다.
 
 ```javascript
 var placeOverlay = new kakao.maps.CustomOverlay({ zIndex: 1 }),
@@ -109,7 +114,7 @@ var map = new kakao.maps.Map(mapContainer, mapOption);
 
 ### 문제점
 
-1. PC 환경과 모바일 환경의 화면 구성이 상이함.
+1. PC 환경과 모바일 환경의 화면 구성이 상이.
 2. 정적 웹 사이트라 다양한 비율의 화면에 대응하기 어려움.
 3. 코드의 재사용성 및 가독성 저하.
 4. API 활용 미숙.
@@ -136,4 +141,8 @@ var map = new kakao.maps.Map(mapContainer, mapOption);
 <!-- 링크 -->
 
 [데모]: https://shinyelee.github.io/kokoa_talk/
+
+[현재 시각]: https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
+[지도 api]: https://apis.map.kakao.com/web/guide/
+
 [참고]: https://nomadcoders.github.io/kokoa-clone-2020/

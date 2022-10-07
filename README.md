@@ -10,7 +10,7 @@
 
 ## 시작
 
-- 대부분 HTML, CSS로 구현했기 때문에 웹개발보다는 웹퍼블리싱에 가깝습니다.
+- 대부분 HTML, CSS로 구현했기 때문에 웹개발보다는 웹퍼블리싱 프로젝트에 가깝습니다.
 - 실제 카카오톡 화면과 최대한 유사한 비율로 구현했기 때문에 모바일 환경에 최적화 돼 있습니다. 화면 가로 너비가 600px을 초과하면 컨텐츠를 표시하지 않기 때문에, PC환경에서는 창의 가로 너비를 줄여 주시기 바랍니다.
 - [데모 사이트 바로가기][데모]
 
@@ -20,7 +20,7 @@
 
 ### 기간
 
-- 21.12.07.~22.01.07.
+- 21.12.07. ~ 22.01.07.
 
 ### 목표
 
@@ -36,13 +36,15 @@
 
 ## 기능
 
-### 시계 및 날짜
+### 1. 시계 및 날짜
 
 ![clock](https://user-images.githubusercontent.com/68595933/151915109-69130133-01a3-4484-a1df-a18169055b8b.png)
 
-- [Date() 생성자][현재 시각]로 시계와 날짜를 구현합니다.
+- [Date() 생성자][현재 시각]로 현재 시각을 받아옵니다.
 
 ```javascript
+// clock.js
+
 const date = new Date();
 const hours = String(date.getHours()).padStart(2, "0");
 const minutes = String(date.getMinutes()).padStart(2, "0");
@@ -68,13 +70,15 @@ setInterval(getToday, 500);
 }
 ```
 
-### 모달창
+### 2. 모달창
 
 ![modal](https://user-images.githubusercontent.com/68595933/151915234-63d735fe-9ba5-4928-9e6f-afc9204aff4b.png)
 
 - 특정 메뉴를 클릭하면 나타나는 모달창을 구현합니다.
 
 ```javascript
+// modal.js
+
 const openModal = () => {
   modal.classList.remove("hidden");
 };
@@ -86,13 +90,15 @@ closeIcon.addEventListener("click", closeModal);
 openIcon.addEventListener("click", openModal);
 ```
 
-### 지도
+### 3. 지도(KakaoMaps API)
 
 ![map](https://user-images.githubusercontent.com/68595933/151915385-e3b77b28-76f3-4311-95fb-7ce9d331cf29.png)
 
-- [KakaoMaps API][지도 api]를 이용해 지도에 특정 위치를 표시합니다.
+- [카카오맵 API][지도 api]를 이용해 지도에 특정 위치를 표시합니다.
 
 ```javascript
+// map.js
+
 var placeOverlay = new kakao.maps.CustomOverlay({ zIndex: 1 }),
   contentNode = document.createElement("div"),
   markers = [],
